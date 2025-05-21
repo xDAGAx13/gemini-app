@@ -1,0 +1,10 @@
+Test Prompt -1 : Uploaded my personal Resume
+You: Has Rohan worked on any projects?
+
+Gemini: Yes, Rohan has worked on several projects: Projects: * Outrack (AI-Powered Workout Tracker App) * AG HelpDesk (Internal Ticketing System for AG Group) * Personal Portfolio Website * Flappy Bird on DE1SOC, (University of Toronto) * AI Developer, Reversi Game AI
+
+
+Test Prompt - 2: Uploaded the pdf for this assignment
+You: Can you explain Task 3 of this assignment?
+
+Gemini: Task 3: Store Responses in a Database This task requires you to store all chatbot interactions (user queries and responses) in a database. * Use a relational database (e.g., PostgreSQL, MySQL). * Create a schema to store user IDs, timestamps, user queries, and chatbot responses. * Implement backend endpoints to save and retrieve chat history for authenticated users. Submission requires you to upload all relevant files to GitHub and share the repository link via email before the deadline.
