@@ -3,7 +3,7 @@ const genAI = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
 
-export async function useGemini(prompt) {
+export async function callGemini(prompt) {
   try {
     const response = await genAI.models.generateContent({
       model: "gemini-2.0-flash",

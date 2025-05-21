@@ -1,6 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import { extractTextFromPDF } from '@/lib/parsePdf';
-import { useGemini } from '@/lib/geminiApi';
+import { callGemini } from '@/lib/geminiApi';
 
 export async function POST(req) {
   try {
@@ -44,7 +44,7 @@ export async function POST(req) {
     const pdfText = await extractTextFromPDF(buffer);
 
     const finalPrompt = `${pdfText}\n\nUser question: ${userPrompt}`;
-    const response = await useGemini(finalPrompt);
+    const response = await callGemini(finalPrompt);
 
     await supabase.from('messages').insert({
       user_id: user.id,
