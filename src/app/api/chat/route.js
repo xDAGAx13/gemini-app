@@ -33,7 +33,6 @@ export async function POST(req) {
       return new Response('Unauthorized: Invalid token', { status: 401 });
     }
 
-    // 🔽 Proceed with your logic
     const formData = await req.formData();
     const file = formData.get('file');
     const userPrompt = formData.get('userPrompt');
