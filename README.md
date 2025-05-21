@@ -97,37 +97,22 @@ src/
 │   ├── parsePdf.js                # Server-side PDF parsing
 │   ├── geminiApi.js               # Gemini API wrapper
 │   └── supabaseClient.js          # Supabase client instance
+│   └── server.js                  # Supabase client server
 ```
 
 ---
 
-## 📄 Sample Chat Response (see `sample-responses.txt`)
+## 📄For Sample Chat Response see `test_prompts.txt`
 
-```
-User: What experience does Rohan have in the music field?
-Gemini: Rohan worked at Six Strings Studio in July 2022, where he taught music theory and prepared students for Rockschool and Trinity Rock n Pop exams.
-```
 
----
 
-## 🌐 Deployment
-
-1. Install Vercel CLI:
-
-```bash
-npm install -g vercel
-```
-
-2. Run `vercel` and follow the setup prompts.
-3. Add the same env variables in the Vercel dashboard.
-
----
 
 ## 🙏 Acknowledgements
 
-* [Supabase](https://supabase.io)
-* [Google Generative AI SDK](https://github.com/google/generative-ai-js)
-* [Next.js](https://nextjs.org)
+* [Supabase](https://supabase.io) (for auth and database)
+* [Google Generative AI SDK](https://github.com/google/generative-ai-js) (for gemini API)
+* [Next.js](https://nextjs.org) (for Front-End Integration)
+* [ChatGPT](https://chatgpt.com/)(for fixing minor bugs and this readme file)
 
 ---
 
