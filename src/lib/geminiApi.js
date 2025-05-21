@@ -1,6 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 const genAI = new GoogleGenAI({
-  apiKey: "AIzaSyBvwseRVm1MhLfVkJ8LBxaiy9nH8BARI90",
+  apiKey: process.env.GEMINI_API_KEY,
 });
 
 export async function useGemini(prompt) {
